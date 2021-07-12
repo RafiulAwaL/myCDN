@@ -1,6 +1,6 @@
 (function($) {
     /*-------------------------------------
-	Background image
+	Demo custom JavaScripts
 	-------------------------------------*/
     $("[data-bg-image]").each(function() {
         const img = $(this).data("bg-image");
