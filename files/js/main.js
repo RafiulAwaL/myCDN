@@ -1,6 +1,6 @@
 (function($) {
     /*-------------------------------------
-	Background image
+	Demo custom JavaScript
 	-------------------------------------*/
     $("[data-bg-image]").each(function() {
         const img = $(this).data("bg-image");
@@ -10,7 +10,7 @@
     });
 
     /*-------------------------------------
-      After Load All Content Add a Class
+      
       -------------------------------------*/
     window.onload = addNewClass();
 
