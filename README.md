@@ -1,9 +1,9 @@
 # myCDN
-A unnecessary project to create own cdn server with NodeJs
+A unnecessary project to create own cdn server with NodeJs+Express
 
-# Uses
-Add all content in "files" folder and inside "files" dir, create contentFolders in any name.
+# TODO
+Add all content in <b>files</b> folder and inside <b>files</b> dir, create contentFolders in any name.
 
-# Access files 
-to view all files in dir: /cdn/(yourDirName)
-to access files in raw: cdn/(yourDirName)?file=(fileName.extention)
+# Access file
+to view all files in dir: <b>/cdn/(yourDirName)</b> <br>
+to access files in raw: <b>/cdn/(yourDirName)?file=(fileName.extention)</b>
