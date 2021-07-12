@@ -1,5 +1,5 @@
-# myCDN
-A unnecessary project to create own cdn server with NodeJs+Express
+# Local CDN
+A unnecessary project to create own cdn server with NodeJs+ExpressJs
 
 # TODO
 Add all content in <b>files</b> folder and inside <b>files</b> dir, create contentFolders in any name.
