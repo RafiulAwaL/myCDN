@@ -1,17 +1,23 @@
 {
-    "name": "mycdn",
-    "version": "1.0.0",
-    "description": "Create personal cdn server",
+    "name": "local-cdn",
+    "version": "1.0.2",
+    "description": "An unnecessary project to create own cdn server with NodeJs+ExpressJs",
     "main": "app.js",
+    "dependencies": {},
+    "devDependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon app.js"
+        "start": "nodemon app"
     },
-    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rafi0x/local-cdn.git"
+    },
+    "keywords": [],
+    "author": "rafi0x",
     "license": "ISC",
-    "dependencies": {
-        "express": "^4.17.1",
-        "morgan": "^1.10.0",
-        "nodemon": "^2.0.11"
-    }
+    "bugs": {
+        "url": "https://github.com/rafi0x/local-cdn/issues"
+    },
+    "homepage": "https://github.com/rafi0x/local-cdn#readme"
 }

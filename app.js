@@ -26,4 +26,4 @@ app.get('/', (req, res) => {
 app.use('/cdn', routez);
 
 // server
-app.listen(4040, () => console.log('cdn server on 4040'));
+app.listen(4000, () => console.log('cdn server on 4000'));
