@@ -6,7 +6,7 @@ route.get('/', (req, res) => {
     res.send('try /css?file=filename || /js?file=filename || /image?file=filename');
 })
 
-// getting file by param. Ex: cdn/dirName/fileName
+// getting dir and file by params. Ex: /dirName/fileName
 route.get('^/:dir/:file?', getContentFile)
 
 
