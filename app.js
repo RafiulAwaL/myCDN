@@ -1,6 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
-const routez = require('./cdnRoute');
+const routez = require('./cdn/cdnRoute');
 
 // main app
 const app = express();
