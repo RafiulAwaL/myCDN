@@ -13,7 +13,7 @@ const routez = require('./cdn/cdnRoute');
 // main app
 const app = express();
 
-// middleware to beautify console response
+// middleware
 app.use(morgan('dev'));
 
 
