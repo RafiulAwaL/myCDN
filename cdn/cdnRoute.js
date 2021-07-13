@@ -1,5 +1,5 @@
 const route = require('express').Router();
-const { viewDirFiles, getContentFile } = require('./cdnController')
+const { getContentFile } = require('./cdnController')
 const fs = require('fs');
 
 // index route
