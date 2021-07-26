@@ -7,7 +7,6 @@ route.get('/', (req, res) => {
 })
 
 // getting dir and file by params. Ex: /dirName/fileName
-route.get('^/:dir/:file?', getContentFile)
-
+route.get('^/:dir*/:file?', getContentFile)
 
 module.exports = route;
