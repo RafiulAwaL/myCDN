@@ -1,12 +1,17 @@
-# Local CDN
+## Local CDN
 
-An unnecessary project to create own cdn server with NodeJs+ExpressJs
+An unnecessary project to create own cdn server
 
-# TODO
+## TOOLS 
+
+NODE & EXPRESS
+
+## TODO
 
 Add all content in <b>files</b> dir and inside this, create your contentFolders with any name.
 
-# Access file
+## Access file
 
 to view all files in dir: <b>/cdn/(yourDirName)</b> <br>
-to access files in raw: <b>/cdn/(yourDirName)/(fileName.extention)</b>
+to access files in raw: <b>/cdn/(yourDirName)/(fileName.)</b>
+also multiple dir supportes: <b>/cdn/(dir)/(dir)/(dir)/(fileName.)</b>
