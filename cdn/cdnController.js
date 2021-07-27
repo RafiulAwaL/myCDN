@@ -6,6 +6,7 @@ const path = require('path');
 const dir = path.resolve('./')
 
 exports.getContentFile = (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
     // regex for find file name from given path
     const fileNameregx = /\w*\.\w*(\.\w*)*/ig;
     const fileName = req.path.match(fileNameregx);
