@@ -6,6 +6,7 @@
  */
 
 // dependencies
+require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
 const routez = require('./cdn/cdnRoute');
@@ -25,5 +26,15 @@ app.get('/', (req, res) => {
 // the CDN route
 app.use('/cdn', routez);
 
+// error handler
+app.use((err, req, res, next) => {
+    switch (err.status) {
+        case 404:
+            return res.send('file not found or worng file name')
+        default:
+            return res.send('internal server error')
+    }
+})
+
 // server
-app.listen(4000, () => console.log('cdn server on 4000'));
+app.listen(process.env.CDN_PORT, () => console.log(`CDN server running no ${process.env.CDN_PORT} port`));
